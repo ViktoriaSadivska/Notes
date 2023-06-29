@@ -1,0 +1,10 @@
+.horizontalAllign {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+
+    .horizontalAllign > select {
+        display: inline-block;
+        width: 33%;
+    }

@@ -1,0 +1,92 @@
+.note {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-width: 300px;
+}
+
+.note-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.hashtags {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.edit-delete-buttons {
+    display: flex;
+    align-items: flex-start;
+}
+
+.edit-button,
+.delete-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.note-body {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.note-text {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.note-footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.priority,
+.date {
+    font-size: 12px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+    .checkbox-container input[type="checkbox"] {
+        opacity: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+        .checkbox-container input[type="checkbox"] + span {
+            display: inline-block;
+            vertical-align: middle;
+            width: 18px;
+            height: 18px;
+            border: 2px solid #333;
+            border-radius: 3px;
+            background-color: #fff;
+            cursor: pointer;
+        }
+
+        .checkbox-container input[type="checkbox"]:checked + span {
+            background-color: #333;
+        }
+
+.edit-delete-buttons span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+}
+
+.edit-delete-buttons img {
+    width: 70%;
+    height: 70%;
+}
